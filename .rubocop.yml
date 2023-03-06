@@ -11,3 +11,5 @@ AllCops:
     - app/mailers/application_mailer.rb
     - app/models/application_record.rb
   NewCops: enable
+Style/Documentation:
+  Enabled: false
