@@ -1,10 +1,8 @@
 require: rubocop-rails
 AllCops:
-  Include:
-    - "**/*.rb"
   Exclude:
-    - app/helpers/application_helper.rb
-    - app/mailers/application_mailer.rb
-    - bin/bundle
-    - config/application.rb
-    - app/models/application_record.rb
+    - "db/**/*"
+    - "config/**/*"
+    - "script/**/*"
+    - "bin/{rails,rake}"
+    - !ruby/regexp /old_and_unused\.rb$/
