@@ -55,6 +55,7 @@ gem 'brakeman'
 gem 'bundler-audit'
 gem 'rubocop'
 gem 'rubocop-discourse'
+gem 'rubocop-rails'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
