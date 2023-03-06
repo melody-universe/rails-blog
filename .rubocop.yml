@@ -1,5 +1,7 @@
 require: rubocop-rails
 AllCops:
+  Include:
+    - "**/*.rb"
   Exclude:
     - app/helpers/application_helper.rb
     - app/mailers/application_mailer.rb
